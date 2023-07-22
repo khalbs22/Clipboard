@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kufam:ital,wght@1,900&family=Lemonada:wght@700&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kufam:ital,wght@1,900&family=Lemonada:wght@700&family=Open+Sans:wght@400;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Press+Start+2P&family=Rajdhani:wght@500&family=Russo+One&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+}
+section {
+  padding: 55px 40px;
+  background-image: url(images/bg-header-desktop.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* Landing page start */
+.Header h1,
+p,
+.buttons {
+  text-align: center;
+  padding: 10px 0px;
+  font-family: Rajdhani;
+}
+.main-landing .main-icon {
+  text-align: center;
+}
+.Header h1 {
+  font-size: 30px;
+}
+.Header p {
+  font-size: 18px;
+}
+.buttons span {
+  font-size: 20px;
+  margin: 0px 50px;
+  color: white;
+}
+.buttons div {
+  display: inline-block;
+  margin: 0px 30px;
+  border-top-left-radius: 60px;
+  border-bottom-right-radius: 60px;
+  transition: 1s ease;
+}
+.buttons div.ios-button:hover {
+  background-color: #00ff66;
+  box-shadow: 1px 10px 10px #797979;
+}
+.buttons div.MAC-button:hover {
+  background-color: blue;
+  box-shadow: 1px 10px 10px #797979;
+}
+.buttons .ios-button {
+  background-color: #1eb82b;
+  height: 50px;
+}
+.buttons .MAC-button {
+  background-color: #5500ff;
+  height: 50px;
+}
+.buttons span {
+  display: inline-block;
+  padding: 7% 0px;
+}
+.Two-landing {
+  margin: 100px 0px;
+}
+.seconde {
+  margin-top: 100px;
+}
+.Device {
+  display: flex;
+}
+/* Landing page End */
+.New-sec .device-img {
+  padding: 50px 20%;
+}
+.third{
+  margin:150px 0px ;
+}
+.Device .device-img img{
+  height: 400px;
+}
+.third .DeviceI img{
+  height: 400px;
+  margin-left: 335px;
+}
+.cards{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards .card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20px;
+}
